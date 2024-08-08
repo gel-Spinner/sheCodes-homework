@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Dark Theme</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Assistant:wght@200..800&family=Bitter:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&family=Poetsen+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        background: radial-gradient(
+          circle at 10% 20%,
+          rgb(248, 219, 219) 0%,
+          rgb(229, 248, 250) 90%
+        );
+        border-radius: 10px;
+        font-family: "Assistant", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 450;
+      }
+
+      h1 {
+        text-align: center;
+        font-weight: 450;
+      }
+
+      h2 {
+        text-align: center;
+        font-weight: 450;
+      }
+
+      img {
+        max-width: 100%;
+        margin: 0 auto 10px;
+        display: block;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        background: white;
+        font-size: 15px;
+        font-family: "Assistant", sans-serif;
+        border-radius: 8px;
+        padding: 10px 5px;
+        transition: all 150ms ease-in-out;
+      }
+
+      footer {
+        text-align: center;
+      }
+
+      .container {
+        max-width: 650px;
+        margin: 20px auto;
+        background: radial-gradient(
+          circle at 0.2% 0.5%,
+          rgb(252, 165, 241) 0%,
+          rgb(181, 255, 255) 100.2%
+        );
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      .modeButton {
+        font-size: 15px;
+        background: #efcdf0;
+      }
+
+      .benefitButton {
+        font-size: 15px;
+        background: #efcdf0;
+      }
+
+      .modeButton:hover {
+        color: black;
+        background: #cec9f6;
+        cursor: pointer;
+      }
+
+      .benefitButton:hover {
+        color: black;
+        background: #cec9f6;
+        cursor: pointer;
+      }
+
+      .fantasy-book-container {
+        max-width: 600px;
+        margin: 20px auto 0 auto;
+      }
+
+      .fantasy-book-photo {
+        border: 2px;
+        border-radius: 20px;
+        transition: opacity 150ms ease-in-out;
+      }
+
+      .fantasy-book-photo:hover {
+        transform: scale(1.2);
+        filter: contrast(90%);
+      }
+
+      .sjm-books-photo {
+        border: 2px;
+        border-radius: 20px;
+        width: 150px;
+        transition: opacity 150ms ease-in-out;
+      }
+
+      .sjm-books-photo:hover {
+        transform: scale(1.2);
+        filter: contrast(90%);
+      }
+
+      .dark-fantasy-photo {
+        border: 2px;
+        border-radius: 20px;
+        width: 150px;
+        transition: opacity 150ms ease-in-out;
+      }
+
+      .dark-fantasy-photo:hover {
+        transform: scale(1.2);
+        filter: contrast(90%);
+      }
+
+      .once-book-photo {
+        border: 2px;
+        border-radius: 20px;
+        width: 150px;
+        transition: opacity 150ms ease-in-out;
+      }
+
+      .once-book-photo:hover {
+        transform: scale(1.2);
+        filter: contrast(90%);
+      }
+
+      .colleen-books-photo {
+        border: 2px;
+        border-radius: 20px;
+        width: 150px;
+        transition: opacity 150ms ease-in-out;
+      }
+
+      .colleen-books-photo:hover {
+        transform: scale(1.2);
+        filter: contrast(100%);
+      }
+
+      .chibi-reading-photo {
+        border: 2px solid white;
+        border-radius: 60%;
+        width: 100px;
+        transition: opacity 150ms ease-in-out;
+      }
+
+      .chibi-reading-photo:hover {
+        transform: scale(1.2);
+        filter: hue-rotate(100deg);
+      }
+
+      .grid-photo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 15px;
+        margin: 0 auto 50px auto;
+      }
+
+      .grid-photo img {
+        width: 100%;
+        border-radius: 8px;
+        transition: all 150ms ease-in-out;
+      }
+
+      .darkMode {
+        background: linear-gradient(
+          89.4deg,
+          rgb(74, 77, 103) -4.3%,
+          rgb(119, 125, 165) 102.1%
+        );
+        color: antiquewhite;
+      }
+
+      .darkMode {
+        background: linear-gradient(
+          89.4deg,
+          rgb(74, 77, 103) -4.3%,
+          rgb(119, 125, 165) 102.1%
+        );
+        color: antiquewhite;
+      }
+
+      .darkMode .container {
+        background: radial-gradient(
+          1002px at -0.1% 47%,
+          rgb(53, 92, 125) 0%,
+          rgb(108, 91, 123) 51.2%,
+          rgb(192, 108, 132) 100.2%
+        );
+      }
+      a {
+        color: rgb(192, 108, 132);
+      }
+
+      a:visited {
+        color: rgb(192, 108, 132);
+      }
+    </style>
+  </head>
+  <body>
+    <button class="modeButton">Light Mode</button>
+
+    <div class="container">
+      <h1 class="assistant">Reading Fiction Books</h1>
+
+      <h2 class="assistant">"A gateway to Imagination"</h2>
+      <br />
+      <div class="fantasy-book-container">
+        <a
+          href="https://en.wikipedia.org/wiki/Fiction#:~:text=Fiction%20is%20any%20creative%20work,history%2C%20fact%2C%20or%20plausibility."
+          target="_blank"
+        >
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/530/original/fantasy-book.jpeg?1714862208"
+            alt=""
+            class="fantasy-book-photo"
+          />
+        </a>
+      </div>
+      <div class="grid-photo">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/597/original/sjm-books.png?1714902117"
+          alt=""
+          class="sjm-books-photo"
+        />
+
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/596/original/dark-fantasy.png?1714902112"
+          alt=""
+          class="dark-fantasy-photo"
+        />
+
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/595/original/once-book.png?1714902107"
+          alt=""
+          class="once-book-photo"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/598/original/colline-books.png?1714902128"
+          alt=""
+          class="colleen-books-photo"
+        />
+      </div>
+
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/622/original/cute-girl-reading-book-cartoon-character-design_79161-1455.png?1714931246"
+        alt=""
+        class="chibi-reading-photo"
+      />
+
+      <p>
+        <b><i>Fiction</i></b> is any creative work, chiefly any narrative work,
+        portraying individuals, events, or places that are imaginary or in ways
+        that are imaginary.Fictional portrayals are thus inconsistent with
+        history, fact, or plausibility.
+      </p>
+      <br />
+
+      <a href="https://www.tidybooks.com/blog/ten-benefits-of-reading-fiction/">
+        <button class="benefitButton">Benefits of Fiction</button>
+      </a>
+    </div>
+    <footer>
+      Coded by
+      <a
+        href="https://www.shecodes.io/graduates/115708-gellie-april-spinner"
+        target="_blank"
+        >Gellie Spinner 📚</a
+      >
+    </footer>
+
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+
+        if (body.classList.contains("darkMode")) {
+          body.classList.remove("darkMode");
+          this.innerHTML = "Light Mode";
+        } else {
+          body.classList.add("darkMode");
+          this.innerHTML = "Dark Mode";
+        }
+      }
+
+      let themeButton = document.querySelector(".modeButton");
+      themeButton.addEventListener("click", changeTheme);
+    </script>
+  </body>
+</html>

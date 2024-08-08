@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Animation</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Assistant:wght@200..800&family=Bitter:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&family=Poetsen+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        background: radial-gradient(
+          circle at 10% 20%,
+          rgb(248, 219, 219) 0%,
+          rgb(229, 248, 250) 90%
+        );
+        border-radius: 10px;
+        font-family: "Assistant", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 450;
+      }
+
+      h1 {
+        text-align: center;
+        font-weight: 450;
+      }
+
+      h2 {
+        text-align: center;
+        font-weight: 450;
+      }
+
+      img {
+        max-width: 80%;
+        margin: 0 auto 10px;
+        display: block;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        background: white;
+        font-size: 15px;
+        font-family: "Assistant", sans-serif;
+        border-radius: 8px;
+        padding: 10px 5px;
+        transition: all 150ms ease-in-out;
+      }
+
+      footer {
+        text-align: center;
+      }
+
+      .container {
+        max-width: 650px;
+        margin: 20px auto;
+        background: radial-gradient(
+          circle at 0.2% 0.5%,
+          rgb(252, 165, 241) 0%,
+          rgb(181, 255, 255) 100.2%
+        );
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      .modeButton {
+        font-size: 15px;
+        background: #efcdf0;
+      }
+
+      .benefitButton {
+        font-size: 15px;
+        background: #efcdf0;
+      }
+
+      .modeButton:hover {
+        color: black;
+        background: #cec9f6;
+        cursor: pointer;
+      }
+
+      .benefitButton:hover {
+        color: black;
+        background: #cec9f6;
+        cursor: pointer;
+      }
+
+      .chibi-reading-photo-container {
+        width: 200px;
+        display: block;
+        margin: 0 auto;
+      }
+
+      .chibi-reading-photo {
+        border: 2px solid white;
+        border-radius: 60%;
+        width: 200px;
+        transition: opacity 150ms ease-in-out;
+      }
+      .chibi-reading-photo:hover {
+        transform: scale(1.2);
+        filter: hue-rotate(100deg);
+      }
+
+      .fantasy-book-photo {
+        border: 2px;
+        border-radius: 20px;
+        width: 300px;
+        transition: opacity 150ms ease-in-out;
+      }
+
+      .fantasy-book-photo:hover {
+        transform: scale(1.2);
+        filter: contrast(150%);
+      }
+
+      .sjm-books-photo {
+        border: 2px;
+        border-radius: 20px;
+        width: 300px;
+        height: 120px;
+        transition: opacity 150ms ease-in-out;
+      }
+
+      .sjm-books-photo:hover {
+        transform: scale(1.2);
+        filter: contrast(150%);
+      }
+
+      .colleen-books-photo {
+        border: 2px;
+        border-radius: 20px;
+        width: 300px;
+        height: 200px;
+        transition: opacity 150ms ease-in-out;
+      }
+
+      .colleen-books-photo:hover {
+        transform: scale(1.2);
+        filter: contrast(150%);
+      }
+
+      .scattered-books-photo {
+        border: 2px;
+        border-radius: 20px;
+        width: 300px;
+        transition: opacity 150ms ease-in-out;
+      }
+
+      .scattered-books-photo:hover {
+        transform: scale(1.2);
+        filter: contrast(150%);
+      }
+    </style>
+  </head>
+  <body>
+    <button class="modeButton">Light Mode</button>
+
+    <div class="container">
+      <h1 class="assistant">Reading Fiction Books</h1>
+
+      <h2 class="assistant">"A getway to Imagination"</h2>
+      <div class="chibi-reading-photo-container">
+        <a
+          href="https://en.wikipedia.org/wiki/Fiction#:~:text=Fiction%20is%20any%20creative%20work,history%2C%20fact%2C%20or%20plausibility."
+          target="_blank"
+        >
+          <img
+            src="https://img.freepik.com/premium-vector/cute-girl-reading-book-cartoon-character-design_79161-1455.jpg"
+            alt=""
+            class="chibi-reading-photo"
+          />
+        </a>
+      </div>
+      <img
+        src="https://img.freepik.com/premium-photo/fantasy-world-inside-book-concept-education-imagination-creativity-from-reading-books_1112342-1804.jpg"
+        alt=""
+        class="fantasy-book-photo"
+      />
+
+      <img
+        src="https://www.bloomsbury.com/media/jdxpbdlw/all-sjm-book-sets.jpg"
+        alt=""
+        class="sjm-books-photo"
+      />
+
+      <img
+        src="https://i.insider.com/64f9e61a56f5190019fcf551?width=700"
+        alt=""
+        class="colleen-books-photo"
+      />
+
+      <img
+        src="https://miro.medium.com/v2/resize:fit:1400/0*jlh5x3jEmxZDmKbg"
+        alt=""
+        class="scattered-books-photo"
+      />
+
+      <p>
+        <b><i>Fiction</i></b> is any creative work, chiefly any narrative work,
+        portraying individuals, events, or places that are imaginary or in ways
+        that are imaginary.Fictional portrayals are thus inconsistent with
+        history, fact, or plausibility.
+      </p>
+
+      <a href="https://www.tidybooks.com/blog/ten-benefits-of-reading-fiction/">
+        <button class="benefitButton">Benefits of Fiction</button>
+      </a>
+    </div>
+    <footer>
+      Coded by
+      <a
+        href="https://www.shecodes.io/graduates/115708-gellie-april-spinner"
+        target="_blank"
+        >Gellie Spinner 📚</a
+      >
+    </footer>
+  </body>
+</html>
